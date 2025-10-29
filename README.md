@@ -35,5 +35,5 @@ Comandos para execução:
 - Compila o projeto: `make`
 - Roda o executável com argumentos: `make run ARGS='infile "cmd1" "cmd2" outfile'`
 - Apaga apenas os objetos .o: `make clean`
-- Apaga .o, a lib .a: `make fclean`
+- Remover objetos (.o) e o executável: `make fclean`
 - Faz fclean e recompila tudo: `make re`
